@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="salam.css" />
+    <title>Nav</title>
+  </head>
+  <body>
+    <header>
+      <nav>
+        <ul class="slidebar">
+          <li onclick="show(-1)">
+            <a href=""
+              ><svg
+                xmlns="http://www.w3.org/2000/svg"
+                height="24"
+                viewBox="0 -960 960 960"
+                width="24"
+              >
+                <path
+                  d="m256-200-56-56 224-224-224-224 56-56 224 224 224-224 56 56-224 224 224 224-56 56-224-224-224 224Z"
+                />
+              </svg>
+            </a>
+          </li>
+          <li class="sliderDe"><a href="index.html">Accueil</a></li>
+          <li class="sliderDe"><a href="Quiz-Info.html">Quiz Info</a></li>
+          <li class="sliderDe"><a href="">Quiz hygiène et sécurité</a></li>
+          <li class="sliderDe"><a href="">A propos</a></li>
+          <li class="sliderDe"><a href="">Don</a></li>
+        </ul>
+        <ul>
+          <li><a href="">Salam</a></li>
+          <li class="sliderDe"><a href="index.html">Accueil</a></li>
+          <li class="sliderDe"><a href="Quiz-Info.html">Quiz Info</a></li>
+          <li class="sliderDe"><a href="">Quiz hygiène et sécurité</a></li>
+          <li class="sliderDe"><a href="">A propos</a></li>
+          <li class="sliderDe"><a href="">Don</a></li>
+          <li onclick="show(1)" class="btn">
+            <a href="#"
+              ><svg
+                xmlns="http://www.w3.org/2000/svg"
+                height="24"
+                viewBox="0 -960 960 960"
+                width="24"
+              >
+                <path
+                  d="M120-240v-80h720v80H120Zm0-200v-80h720v80H120Zm0-200v-80h720v80H120Z"
+                />
+              </svg>
+            </a>
+          </li>
+        </ul>
+      </nav>
+    </header>
+    <main>
+      <div id="app">
+        <h1 class="title"><span class="js">Informatique</span> Quiz</h1>
+        <button id="btn">Start</button>
+      </div>
+    </main>
+    <script src="Quiz-info.js"></script>
+  </body>
+</html>
